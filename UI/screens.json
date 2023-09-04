@@ -1,0 +1,7 @@
+{
+  "chat": {
+        "import": "from baseclass.chat_screen import ChatScreen",
+        "object": "ChatScreen()",
+        "kv": "libs/uix/kv/chat_screen.kv"
+    }
+}

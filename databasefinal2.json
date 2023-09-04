@@ -1,0 +1,827 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+		  "greeting",
+          "Good day",
+          "Good morning",
+          "Good afternoon",
+          "Good evening"
+        ],
+        "responses": [
+          "Hello, thanks for visiting",
+          "Hi! Welcome to S.P.I.T. What can I do for you?",
+          "Hi there, welcome to S.P.I.T., how can I help?",
+          "Hi! Welcome to Sardar Patel Institute of Technology. What can I do for you?",
+          "Hi there, welcome to Sardar Patel Institute of Technology., how can I help?"
+        ]
+      },
+
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Good night","See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+		  "goodbye",
+          "Bye! Come back again soon."
+        ]
+      },
+
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+
+      {
+        "tag": "intro",
+        "patterns": [
+          "What is S.P.I.T.?",
+          "Tell me something about campus of S.P.I.T.",
+          "What is Sardar Patel Institute of Technology?",
+		  "intro",
+		  "introduction",
+          "Tell me something about Sardar Patel Institute of Technology",
+          "To which university is SPIT affiliated to?",
+          "overall ranking in the country",
+          "overall ranking of college"
+        ],
+        "responses": [
+          " Bharatiya Vidya Bhavans's Sardar Patel Institute of Technology is one of the top institutes in Maharashtra State. S.P.I.T. was founded in 2005. It comes under Mumbai University with an autonomous status since 2017. S.P.I.T. is placed at 125th position among all the institutes in India according to NIRF."
+        ]
+      },
+      {
+        "tag": "vision",
+        "patterns": [
+          "What is the vision statement of S.P.I.T.?",
+          "Can you please tell me the vision of S.P.I.T.",
+		  "vision",
+          "What is the vision statement of Sardar Patel Institute of Technology?",
+          "Can you please tell me the vision of Sardar Patel Institute of Technology",
+		  "vision"
+        ],
+        "responses": [
+          "The vision statement of Sardar Patel Institute of Technology is : To build a renowned institute which will produce graduate engineers with global competency and social sensitivity."
+        ]
+      },
+
+      {
+        "tag": "mission",
+        "patterns": [
+          "What is the mission statement of S.P.I.T.?",
+		  "mission",
+          "Can you please tell me the mission statement of S.P.I.T.",
+         "What is the mission statement of Sardar Patel Institute of Technology?",
+		  "mission",
+          "Goal of SPIT",
+          "Goal of Sardar Patel Institute of Technology",
+          "Can you please tell me the mission statement of Sardar Patel Institute of Technology"
+        ],
+        "responses": [
+          "Our Mission : 1) Provide high quality education in engineering and technology promoting the Indian Values and Ethos that will prepare the participants to lead lives of personal integrity and civic responsibility in a global society.\n 2) Promote an Educational Environment that combines academic study with the excitement of intellectual curiosity for engineers of tomorrow.\n3) Enhance career opportunities for students through Industry-Institute interaction, value-added courses and projects in cutting edge technology.\n4) Inculcate Entrepreneurial mindset in students to make them job creators.\n5) Focus on applied research to create next generation technologies."
+        ]
+      },
+
+      {
+        "tag": "campus",
+        "patterns": [
+          "How is the campus of S.P.I.T.?",
+		  "campus",
+          "How is the campus of the college?",
+          "Tell me something about campus of S.P.I.T.",
+          "How is the campus of Sardar Patel Institute of Technology?",
+          "Tell me something about campus of Sardar Patel Institute of Technology",
+          "How is the campus of S.P.I.T?"
+        ],
+        "responses": [
+          "The institute is located in 47 acres of green campus at Andheri(West), the fastest growing suburb of Mumbai. The campus also houses other Bhavan’s Institutions of great repute namely Bhavan’s College (the arts, commerce and science college), Sardar Patel College of Engineering, S.P. Jain Institute of Management and Research, a management institute. It also has an Auditorium, Bhavan's Lake and a common cricket ground for the campus institutes. In addition to this, S.P.I.T. also owns its own Technology Incubation Center for Startups named SP-TBI"
+        ]
+      },
+      {
+        "tag": "vjti",
+        "patterns": [
+          "SPIT vs. VJTI",
+		  "SPIT vs. COEP",
+          "How is S.P.I.T compared with VJTI",
+          "How is S.P.I.T compared with COEP",
+          "How is S.P.I.T. as compared to CoEP or VJTI?"
+        ],
+        "responses": [
+          "Truly it is not fair to compare these institutions. S.P.I.T. is Numero uno in Maharashtra state. S.P.I.T. is at par with CoEP and VJTI as far as academics and placements are considered. S.P.I.T. is self-finance institution while CoEP is Government college and VJTI is Government aided college."
+        ]
+      },
+      {
+        "tag": "B.Tech B.E",
+        "patterns": [
+          "Which Degree I will get at S.P.I.T. B.Tech/B.E.?",
+		  "What is the difference between B.E. and B.Tech.",
+          "B.E or B.Tech",
+          "Which degree is offered in SPIT?",
+          "What degree is offered in SPIT?",
+          "Which degree is offered in Sardar Patel Institute of Technology?",
+          "What degree is offered in Sardar Patel Institute of Technology?"
+        ],
+        "responses": [
+          "B.Tech degree is offered by Sardar Patel Institute of Technology. B.E. is Bachelor of Engineering and B.Tech is Bachelor of Technology. Practically there is no difference. However B.Tech is offered by autonomous institutes."
+        ]
+      },
+      {
+        "tag": "faculties of SPIT",
+        "patterns": [
+          "How are the faculties of SPIT?",
+          "How are the faculties of Sardar Patel Institute if Techology?",
+		  "How many faculties are there in SPIT?",
+		  "faculties of SPIT",
+		  "How many faculties are there in Sardar Patel Institute of Technology?"
+        ],
+        "responses": [
+          "S.P.I.T. has highly qualified professors in their respective domains. For detailed information on faculties of SPIT please visit https://www.spit.ac.in/academics/faculty/"
+        ]
+      },
+
+	  {
+        "tag": "Departments",
+        "patterns": [
+          "How many departments are in S.P.I.T.?",
+          "Tell me something about Departments of S.P.I.T.",
+		  "How many branches are in S.P.I.T.?",
+          "Tell me something about branches of S.P.I.T.",
+		  "How many streams are in S.P.I.T.?",
+		  "Departments",
+          "Tell me something about streams of S.P.I.T.",
+          "How many departments are in Sardar Patel Institute of Technology?",
+          "Tell me something about Departments of Sardar Patel Institute of Technology",
+		  "How many branches are in Sardar Patel Institute of Technology?",
+          "Tell me something about branches of Sardar Patel Institute of Technology",
+		  "How many streams are in Sardar Patel Institute of Technology?",
+		  "Departments",
+          "Tell me something about streams of Sardar Patel Institute of Technology."
+        ],
+        "responses": [
+          " Currently, Sardar Patel Institute of Technology has 7 departments. Department of Electronics Engineering, Department of Electronics & Telecommunications Engineering, Department of Computer Engineering, Department of Information Technology, Department of Applied Science & Humanities, Department of Masters in Computer Applications, PHD Centre at Sardar Patel Institute of Technology.\n\n From the academic year 2022-23 Sardar Patel Institute of Technology offers degree programs in the following areas:\nB.Tech. Computer Engineering – 120\nB.Tech. Electronics and Telecommunication Engineering -120\nB.Tech. Computer Science And Engineering (Artificial Intelligence And Machine Learning) – 60\nB.Tech. Computer Science And Engineering (Data Science) – 60"
+        ]
+      },
+
+	  {
+        "tag": "Computer Department",
+        "patterns": [
+          "How is the Computer Department of S.P.I.T.?",
+          "Tell me something about Computer Department",
+		  "How is the Comps Department of S.P.I.T.?",
+		  "Tell me something about Comps Department",
+		  "Computer Department",
+		  "Computer Department of Sardar Patel Institute of Technology",
+          "How is the Computer Department of Sardar Patel Institute of Technology?",
+		  "How is the Comps Department of Sardar Patel Institute of Technology?",
+		  "Computer Department of Sardar Patel Institute of Technology."
+        ],
+        "responses": [
+          "The Department of Computer Engineering was established in the year 1995 and it is one of the earliest departments of the Institute. The department consists of 14 faculty members, 2 technical assistants and around 230 students working towards their Bachelors’, Masters’ and Doctoral degrees. The department attracts high quality students from all over Maharashtra and also from the country and has an impressive placement record and results. Many of the graduates choose to join some of the best institutions of higher learning around the world, whereas some prefer to gain a few years of work experience before deciding their next course of action. Still some others choose to chase their dream by opening their own start-ups, joining government firms and so on. Strong placements and results, highly qualified staff and laboratory facilities, research publications are some of the strengths of the department. Department has also received accreditation from the National Board Accreditation. In the recent past, we had benchmarked our curriculum with select institutions of higher learning around the world and currently we are carefully reviewing the impact of these consequent changes with a view to make our programs even more strong and competitive. Department also attracts the interaction with the IT industries to provide training to the students."
+        ]
+      },
+
+	  {
+        "tag": "IT Department",
+        "patterns": [
+          "How is the IT Department of S.P.I.T.?",
+          "Tell me something about IT Department",
+		  "How is the Information technology Department of S.P.I.T.?",
+          "Tell me something about Information technology Department",
+		  "IT Department",
+		  "Information technology Department",
+
+          "How is the IT Department of Sardar Patel Institute of Technology?",
+		  "How is the Information technology Department of Sardar Patel Institute of Technology?"
+        ],
+
+        "responses": [
+          "The  Department of Information Technology, established in 1995 at the Sardar Patel College of Engineering, as an unaided wing was renamed as Sardar Patel Institute of Technology in 2005. Sardar Patel Institute of Technology offers a B.Tech degree in Information Technology. This degree provides students  with excellent preparation both for graduate study in Information Technology and for employment as an IT professional. The placement records of the department have been commendable with many students being placed in renowned companies of India as well as out of India. Our vision is to train our students and turn them into IT professionals, Innovators, Entrepreneurs by providing them with knowledge that will last for a lifetime."
+        ]
+      },
+
+	  {
+        "tag": "ETRX department",
+        "patterns": [
+          "How is the ETRX Department of S.P.I.T.?",
+          "Tell me something about ETRX Department",
+		  "How is the Electronics Department of S.P.I.T.?",
+          "Tell me something about Electronics Department",
+		  "ETRX department",
+		  "Electronics Department",
+
+          "How is the ETRX Department of Sardar Patel Institute of Technology?",
+		  "How is the Electronics Department of Sardar Patel Institute of Technology?"
+        ],
+        "responses": [
+          "Electronics Engineering Department, since its inception in 1995, has achieved great recognition in the field of technical education. The department offer B.E. in Electronics Engineering, a four-year degree program with an intake of 60 students and Ph.D. in Electronics Engineering. The National Board of Accreditation accredited the department in 2004, 2013 and 2017. In 2017 department received 740 marks in accreditation. Department adopted the philosophy of ‘Outcome Based Education.’ It comprises highly qualified and professionally skilled faculty members with an impressive record of the published work. The faculty members and students are involved in organizations like the IEEE, IETE and college body ESA. Projects done by students are appreciated at various national level competitions like ARM Design Contest, Hackathon, Mitsubhishi Contest, Texas Instruments Innovation Challenges and many more."
+        ]
+      },
+
+	  {
+        "tag": "EXTC department",
+        "patterns": [
+          "How is the EXTC Department of S.P.I.T.?",
+          "Tell me something about EXTC Department",
+		  "How is the Electronics and Telecommunications Department of S.P.I.T.?",
+          "Tell me something about Electronics and Telecommunications Department",
+		  "EXTC department",
+		  "Electronics and Telecommunications Department",
+
+          "How is the EXTC Department of Sardar Patel Institute of Technology?",
+		  "How is the Electronics and Telecommunications Department of Sardar Patel Institute of Technology?"
+        ],
+        "responses": [
+          "The B.E. Electronics and Telecommunications Engineering is a four-year degree program designed to provide a broad liberal education as well as a strong foundation in electronics, communications, computing, engineering sciences, mathematical and scientific fundamentals in preparation to their practice as electronics and telecommunications engineers. The institute received an approval for starting Electronics & Telecommunication Engineering Course with effect from 2005 – 2006 with an intake of 60 students and subsequently started M.E. (EXTC) in the year 2010 with an intake of 18 students. The department has highly qualified and professionally skilled faculty members, who regularly conduct training programs in the areas of Network Administration, Communication, Design & Optimization, Network Security, Embedded Systems, Real-time DSP applications, VLSI design and RTOS. The department has signed MoU with companies like Tata Consultancy Services, Sony Ericsson India Ltd to train and significantly improve technical knowledge and skills of students."
+        ]
+      },
+
+	  {
+        "tag": "Department of MCA",
+        "patterns": [
+          "How is the MCA Department of S.P.I.T.?",
+          "Tell me something about MCA Department",
+		  "How is the Masters in Computer Applications Department of S.P.I.T.?",
+          "Tell me something about Masters in Computer Applications Department",
+		  "Department of MCA",
+		  "Masters in Computer Applications Department",
+
+          "How is the MCA Department of Sardar Patel Institute of Technology?",
+		  "How is the Masters in Computer Applications Department of Sardar Patel Institute of Technology?"
+        ],
+        "responses": [
+          "Right from it’s first year in 2009, S.P.I.T. has been one of the sought college by students for MCA and is renown for its ongoing courses. Even though starting in year 2009 it has managed to excel quickly and with the highest cutoff this year it has shown a growth among the students all over."
+        ]
+      },
+
+	  {
+        "tag": "faculties of ETRX",
+        "patterns": [
+          "How are the faculties of ETRX?",
+          "How are the faculties of Electronics?",
+		  "How many faculties are there in ETRX?",
+		  "faculties of ETRX",
+          "faculties of ETRX dept",
+          "faculties of ETRX department",
+		  "How many faculties are there in Electronics?"
+        ],
+        "responses": [
+          "For faculties of ETRX please visit https://etrx.spit.ac.in/faculty/"
+        ]
+      },
+
+	  {
+        "tag": "faculties of EXTC",
+        "patterns": [
+          "How are the faculties of EXTC?",
+          "How are the faculties of Electronics and Telecommunications?",
+		  "How many faculties are there in EXTC?",
+		  "faculties of EXTC",
+          "faculties of EXTC dept",
+          "faculties of EXTC department",
+		  "How many faculties are there in Electronics and Telecommunications?"
+        ],
+        "responses": [
+          "For faculties of EXTC please visit https://extc.spit.ac.in/faculty/"
+        ]
+      },
+
+	  {
+        "tag": "faculties of COMPS",
+        "patterns": [
+          "How are the faculties of COMPS?",
+          "How are the faculties of Computer?",
+		  "How many faculties are there in COMPS?",
+		  "faculties of COMPS",
+          "faculties of COMPS dept",
+          "faculties of COMPS department",
+          "faculties of Computer Department",
+		  "How many faculties are there in Computer?"
+        ],
+        "responses": [
+          "For faculties of COMPS please visit https://comp.spit.ac.in/faculty/"
+        ]
+      },
+
+	  {
+        "tag": "faculties of IT",
+        "patterns": [
+          "How are the faculties of IT?",
+          "How are the faculties of Information Technology?",
+		  "How many faculties are there in IT?",
+		  "faculties of IT",
+          "faculties of IT dept",
+          "faculties of IT department",
+		  "How many faculties are there in Information Technology?"
+        ],
+        "responses": [
+          "For faculties of IT please visit https://it.spit.ac.in/faculty/"
+        ]
+      },
+
+	  {
+        "tag": "faculties of MCA",
+        "patterns": [
+          "How are the faculties of MCA?",
+          "How are the faculties of Masters in Computer Applications?",
+		  "How many faculties are there in MCA?",
+		  "faculties of MCA",
+          "faculties of MCA dept",
+          "faculties of MCA department",
+		  "How many faculties are there in Masters in Computer Applications?"
+        ],
+        "responses": [
+          "For faculties of MCA please visit http://mca.S.P.I.T..ac.in/faculty1.php"
+        ]
+      },
+      {
+        "tag": "Documents",
+        "patterns": [
+          "Documents",
+          "Documents in application process in SPIT",
+		  "Documents in application process in Sardar  Patel Institute of Technology",
+		  "What are the certificates to be attached with the application form"
+        ],
+        "responses": [
+          "Generally following documents are asked:\n1. Certificate of Indian Nationality in the Name of the candidate.\n2. Birth Certificate of Candidate showing his/her Place of Birth in the state of Maharashtra.\n3. Caste certificate clearly mentioning the Category of the Candidate and also the remarks that the caste is recognized as backward class in the State of Maharashtra.\n4. Caste/Tribe validity certificate in the Name of the candidate, issued by Caste/Tribe Validity committees of Maharashtra State.\n5. Non-Creamy layer certificate or Receipt of Submission of Application made for Non-creamy layer certificate issued by Sub Divisional officer or Deputy Collector of the District in addition to the Caste Certificate with validity date.\n 6. Statement of marks or Certificate of Passing SSC/ Equivalent Examination.\n7. Statement of marks or Certificate of Passing HSC/ Equivalent Examination.\n8. Score card of JEE Main (Paper-1).\n9. Score card of MHT-CET.\n10. College leaving Certificate."
+        ]
+      },
+	  {
+        "tag": "Placement",
+        "patterns": [
+          "How are the placements in S.P.I.T.?",
+          "What is the average salary of an engineer passed out from S.P.I.T.?",
+		  "How many companies hire from S.P.I.T.?",
+		  "What is the average salary of S.P.I.T. engineers?",
+		  "What is th highest salary of S.P.I.T. engineers?",
+		  "What is th lowest salary of S.P.I.T. engineers?",
+		  "Placement",
+		  "Which companies visit S.P.I.T. for placements",
+          "How are the placements in Sardar Patel Institute of Technology?",
+          "What is the average salary of an engineer passed out from Sardar Patel Institute of Technology?",
+		  "How many companies hire from Sardar Patel Institute of Technology?",
+		  "What is the average salary of Sardar Patel Institute of Technology engineers?",
+		  "What is th highest salary of Sardar Patel Institute of Technology engineers?",
+		  "What is th lowest salary of Sardar Patel Institute of Technology engineers?",
+		  "Placement",
+		  "Which companies visit Sardar Patel Institute of Technology for placements"
+        ],
+        "responses": [
+          "Sardar Patel Institute of Technology continues to be ranked among the top colleges attracting the brightest students across the state as well as the country. We at S.P.I.T. are working to build enthusiastic engineers always willing to take up challenges as opportunities and apply their knowledge to tackle it. Some of our top recruiters are Phonepe, VMware, Morgan Stanley, Deutsche Bank, JPMC & co, MSCI, Credit Suisse, Nomura, Quantiphi, Microsoft, Barclays and many more. Average salary at S.P.I.T. is 11 LPA. For more information visit https://www.spit.ac.in/placements/"
+        ]
+      },
+
+	  {
+        "tag": "Conference",
+        "patterns": [
+          "Which conferences are organized by S.P.I.T.?",
+		  "Information about research and development in S.P.I.T.",
+		  "Conference",
+          "IEEE conference",
+		  "Which IEEE conference is organized by S.P.I.T.?",
+          "Which conferences are organized by Sardar Patel Institute of Technology?",
+		  "Information about research and development in Sardar Patel Institute of Technology",
+		  "Which IEEE conference is organized by Sardar Patel Institute of Technology?",
+          "What are the conference",
+          "How are the conference",
+          "How is the research work in S.P.I.T?",
+          "ICCICT",
+          "What is International Conference on Communication, Information and Computing Technology?",
+          "How is the research work in Sardar Patel Institute of Technology?",
+          "IEEE conference",
+          "What is the conference?",
+          "Conference of SPIT"
+        ],
+        "responses": [
+          "Sardar Patel Institute of Technology is one of the most active institutes in the Mumbai University in terms of publications and R&D activities. As an extension of our interest in being a centre for continuous learning and research we organized a “National Conference on Biomedical Engineering” in March 2006 and an international colloquium in collaboration with IEEE-R10 on recent trends and advances in Information, Software and Communication Technologies in February 2008. Both the conferences attracted high-quality research work by academicians and practitioners with a shared interest in tools, techniques and technology and were well-received by the participants. In continuation of our efforts to engage ourselves in a continuous dialogue with future trends in technologies so that we as an institute can surpass our own stature at two levels: to bridge the ever-present gap between the classroom and the industry and to establish our institute as a centre of excellence by familiarizing ourselves with contemporary trends. The college has organized three International Conference on Communication, Information and Computing Technology since 2012. Name of the conference is ICCICT. For more information visit https://www.spit.ac.in/faculty-research/iccict/"
+        ]
+      },
+
+	  {
+        "tag": "curriculum",
+        "patterns": [
+          "How is the academic curriculum of S.P.I.T.?",
+          "How is the academic curriculum of EXTC?",
+		  "How is the academic curriculum of ETRX?",
+		  "How is the academic curriculum of COMPS?",
+		  "How is the academic curriculum of IT?",
+		  "curriculum",
+		  "How is the academic curriculum of S.P.I.T.?",
+          "How is the academic curriculum of Sardar Patel Institute of Technology?",
+          "How is the syllabus of Comps?",
+          "How is the syllabus of IT?",
+          "How is the syllabus of EXTC?",
+          "How is the syllabus of ETRX",
+          "What is the syllabus?"
+        ],
+        "responses": [
+          "As S.P.I.T. is autonomous, we have created a fruitful academic curriculum which will not just focus on the particular branch but covers broad spectrum of domains. Speciality of our academic curriculum is SCOPE courses which are open elective and are designed to provide industrial exposure to students. 6 months long full time internship opportunity is also provided to students before passing out as the 8th semester for them is completed in vacation itself. For more information visit https://library.spit.ac.in/syllabus.html"
+        ]
+      },
+	  {
+        "tag": "Principal's office",
+        "patterns": [
+          "Who is the Principal of S.P.I.T.?",
+		  "Principal's office",
+          "Who is the Principal of Sardar Patel Institute of Technology?"
+        ],
+        "responses": [
+          "Dr. Bhalchandra Chaudhari is currently the principal of Sardar Patel Institute of Technology since 2020. He previously worked in College of Engineering, Pune (COEP) as a deputy director. To learn more about the principal's message to everyone, vist: https://www.spit.ac.in/about/principals-message/"
+        ]
+      },
+	  {
+        "tag": "fee",
+        "patterns": [
+          "What is the fee structure of S.P.I.T.?",
+		  "fee",
+		  "fees",
+          "What is the fee structure of Sardar Patel Institute of Technology?",
+		  "Tell me something about the fee structure"
+        ],
+        "responses": [
+          "For academic year 2020-21, Fees sanctioned by FRA is Rs. 1,70,000/-- for First year B.Tech Program. Institute is yet to receive the sanctioned fees for academic year 2021-22 from FRA. As and when sanction of fees is received, the information will be made available on institute website.Tuition fees remain same during four years of study. There is no donation. Whatever fees is approved by ‘Fee Approving Authority’ (FRA) only that you need to pay while taking admission. Primarily you need to only pay as per the norms. No extra fees is charged from any candidate while taking admission. For further bifurcations and updates in fee structure (non-freshers), please visit the following link: https://www.spit.ac.in/2020/06/30/fee-structure-for-second-year-to-final-year-b-tech-m-tech-mca-for-2020-21/"
+        ]
+      },
+	  {
+        "tag": "Hostel",
+        "patterns": [
+          "How is the hostel service of S.P.I.T.?",
+          "How is the hostel service of Sardar Patel Institute of Technology?",
+          "Hostel",
+          "Is hostel service available in Sardar Patel Institute of Technology?",
+          "Hostel service",
+          "Hostel facilities"
+        ],
+        "responses": [
+          "Unfortunately, the college does not provide hostel facilities. However, PGs are available in plenty within proximity to the campus.  "
+        ]
+      },
+	  {
+        "tag": "gymkhana",
+        "patterns": [
+          "How is the gymkhana facility of S.P.I.T.?",
+          "Tell me something about the gymkhana?",
+		  "What facilities are present in gymkhana?",
+		  "How is the gym facility of S.P.I.T.?",
+          "Tell me something about the gym?",
+		  "gymkhana",
+		  "What facilities are present in gym?",
+          "How is the gymkhana facility of Sardar Patel Institute of Technology?",
+		  "How is the gym facility of Sardar Patel Institute of Technology?"
+        ],
+        "responses": [
+          "Located on the first floor, the gymnasium enables students to enjoy a game of Table Tennis or try their skill at Carrom. The huge Bhavan’s ground is where the various college cricket events take place. Students as well as the college staff are actively involved in sporting activities."
+        ]
+      },
+	  {
+        "tag": "lab",
+        "patterns": [
+          "How is the lab facilities of S.P.I.T.?",
+          "Tell me something about lab facilities and equipment of S.P.I.T.?",
+		  "lab",
+          "Practical sessions of S.P.I.T.",
+          "How is the lab facilities of Sardar Patel Institute of Technology?",
+          "Tell me something about lab facilities and equipment of Sardar Patel Institute of Technology?",
+		  "lab",
+          "Practical sessions of Sardar Patel Institute of Technology",
+          "Resources available in college?"
+        ],
+        "responses": [
+          "Engineering education is incomplete without laboratory sessions. To ensure satisfactory laboratory experience, the institution makes an effort to provide students with a well-stocked laboratory so that they have hands on experience with the apparatus that they study about in their books. It also enables students to explore beyond their syllabus and experiment in the fields of science and technology. 24X7 Lab facilities available for students for experimentation and research with upgraded tools. The college extends its laboratory facilities to students beyond college hours. Students are free to use the resources for their own research work or practice related to the theory taught in classrooms. The labs also boast of upgraded tools and resources to enable students to pursue any experiment without any limitations."
+        ]
+      }
+	  ,
+	  {
+        "tag": "library",
+        "patterns": [
+          "How is the library of S.P.I.T.?",
+          "Is there a facility of library in S.P.I.T.?",
+		  "Is there a service of library in S.P.I.T.?",
+          "How is the library of Sardar Patel Institute of Technology?",
+          "Is there a facility of library in Sardar Patel Institute of Technology?",
+		  "Is there a service of library in Sardar Patel Institute of Technology?",
+		  "library",
+		  "What about library",
+		  "What about library facility?"
+        ],
+        "responses": [
+          "Central Library at S.P.I.T. has more than 20,000 books and subscribes to 21 National and International periodicals along with several online journals. S.P.I.T. library is a knowledge resource center, which has an invaluable resource for the students and faculty members in the area of Engineering and Technology. It is providing effective information services to the clientile within a shortest possible time using SLIM library management software. Library has a collection of more than 20000 books and subscribed to National and International periodicals along with several online journals. The library has Institutional membership of British Council Library (BCL). S.P.I.T. Library subscribed IEEE ASPP (All Society Periodicals Package). Library is also member of ACM digital Library. Library provides NPTEL online lectures of eminent personality of various IITs, and there are made available to user online through Intranet. S.P.I.T. Library is open to other academic users for reference. Visitors are requested to bring an official letter from their institution with signature of their Head of the Department (H.O.D.). For more information visit https://www.spit.ac.in/central-library/"
+        ]
+      },
+	  {
+        "tag": "Contact number",
+        "patterns": [
+          "What is the enquiry number for S.P.I.T.",
+		  "What is the contact number for S.P.I.T.",
+		  "What is the phone number for S.P.I.T.",
+		  "What is the telephone number for S.P.I.T.",
+		  "What is the enquiry number for Sardar Patel Institute of Technology?",
+		  "What is the contact number for Sardar Patel Institute of Technology?",
+		  "What is the phone number for Sardar Patel Institute of Technology?",
+		  "What is the telephone number for Sardar Patel Institute of Technology?",
+		  "enquiry number",
+		  "phone number",
+		  "telephone number",
+          "telephone number of SPIT",
+          "telephone number of Sardar Patel Institute of Technology",
+		  "contact number",
+          "contact number of SPIT",
+          "contact number Of Sardar patel Institute of Technology"
+        ],
+        "responses": [
+          "For admission or other queries please contact Phone: (91)-(022)-26707440, 26287250"
+        ]
+      },
+	  {
+        "tag": "address",
+        "patterns": [
+          "What is the address for S.P.I.T.",
+		  "What is the address of S.P.I.T.",
+		  "What is the phone number for S.P.I.T.",
+		  "address of S.P.I.T.",
+		  "address",
+		  "Where the S.P.I.T. is located?",
+		  "What is the location of S.P.I.T.?",
+		  "What is the address for Sardar Patel Institute of Technology",
+		  "What is the address of Sardar Patel Institute of Technology",
+		  "What is the phone number for Sardar Patel Institute of Technology",
+		  "address of Sardar Patel Institute of Technology",
+		  "address",
+		  "Where the Sardar Patel Institute of Technologyis located?",
+		  "What is the location of Sardar Patel Institute of Technology?",
+          "How to reach SPIT?",
+          "travelling to spit"
+        ],
+        "responses": [
+          "Sardar Patel Institute of Technology Bhavan’s Campus, Munshi Nagar, Andheri (West), Mumbai 400 058 \nBy Air: Santacruz Airport (5 Km)\nBy Train: Andheri Station (1.5 Km)\nBy Metro: Azadnagar Station (0.5 Km)\nBy Bus From Andheri (W) station: 249/250/254/257/259 (There may be changes in routes, please verify)"
+        ]
+      },
+	  {
+        "tag": "S.P.I.T. SPCE",
+        "patterns": [
+          "Is S.P.I.T. AND SPCE same?",
+          "S.P.I.T. SPCE",
+          "Is Sardar Patel Institute of Technology and Sardar Patel College of Engineering same? ",
+          "Difference between SPCE and SPIT",
+          "SPCE and SPIT"
+        ],
+        "responses": [
+          "Both institutions are part of Bharatiya Vidya Bhavan’s located in the same campus. S.P.I.T. is nonminority, self-finance, autonomous institute, approved by AICTE and affiliated to Mumbai university. S.P.I.T. has Computer Engineering, Computer Science and Engineering (Data Science), Computer Science and Engineering (AI &ML) and Electronics & Telecommunication undergraduate programs. While SPCE is Government Aided Institution which has undergraduate programs in Electrical, Mechanical and Civil engineering."
+        ]
+      },
+	  {
+        "tag": "reservation",
+        "patterns": [
+          "Is there any Reservation in seats?",
+          "Is there any management quota apart from mentioned in DTE rules?",
+          "reservation ",
+          "Is there any Reservation in SPIT?",
+          "Is SPIT a minority college?",
+          "Minority Quota in SPIT"
+        ],
+        "responses": [
+          "Reservation in seats is applicable as per the Government Rules for CAP(Centralized Admission Process) rounds conducted by DTE. However, there is no reservation in institute quota seats, are open for all and filled strictly by merit only. Last year 80% seats were filled through CAP rounds and 20% seats through Institute round. Apart from this there is no separate management quota."
+        ]
+      },
+	  {
+        "tag": "autonomous",
+        "patterns": [
+          "autonomous",
+          "autonomy",
+          "What is the meaning of autonomy?",
+          "What is the meaning of autonomous?",
+          "How is S.P.I.T autonomy?",
+          "How is Sardar Patel Institute of Technology as an autonomous college?",
+          "How is S.P.I.T as an autonomous college?"
+        ],
+        "responses": [
+          "Yes, SPIT is an autonomous college. Autonomy means freedom with responsibility. It means S.P.I.T. has freedom to decide the curriculum and evaluation mechanism. It has fully flexible curriculum that focuses on holistic development of students. S.P.I.T. can upgrade curriculum regularly as per the real life needs. Evaluation mechanism is fully transparent supported with quality processes."
+        ]
+      },
+	  {
+        "tag": "government private",
+        "patterns": [
+          "Is S.P.I.T. government aided college?",
+          "government",
+          "Is SPIT Government aided?",
+          "Is SPIT Government college?",
+          "private college",
+          "Is Sardar Patel Institute of Technology a government aided college? "
+
+        ],
+        "responses": [
+          "No, Sardar Patel Institute of Technology is not a government aided college, it's a private institute."
+        ]
+      },
+	  {
+        "tag": "events",
+        "patterns": [
+          "What are some events conducted in S.P.I.T.?",
+          "events",
+          "What is Oculus?",
+          "fests",
+          "What are some events conducted in SPIT?",
+          "Name of some fests conducted in SPIT?",
+          "What are some events conducted in SPIT?",
+          "Name of some fests conducted in Sardar Patel Institute of Technology?",
+          "How are the events organized in Sardar Patel Institute of Technology?",
+          "What are some events conducted in Sardar Patel Institute of Technology?",
+          "Which is the main cultural festival in college?",
+          "Which is the main festival in college",
+          "Which is the techno-cultural festival in college?"
+
+        ],
+        "responses": [
+          "Sardar Patel Institute of Technology annual techno-cultural event, Oculus is held every year in the month of February.Oculus is a Techno-Cultural festival that represents the synergy between Culture and Technology. Be it performing arts, or hackathons. Writing poetry or Technical Papers, Oculus sees all.\nFor more information, visit:https://oculus.spit.ac.in/"
+        ]
+      },
+      {
+        "tag": "admission",
+        "patterns": [
+          "Tell about the admission in S.P.I.T.",
+          "How to get admission in S.P.I.T.",
+          "admission",
+          "cut-off",
+          "cutoff",
+          "intake",
+          "What is the intake?",
+          "marks required in CET",
+          "How many marks are required in CET",
+          "Can we get admission in SPIT with JEE marks?",
+          "JEE",
+          "CET",
+          "NEET",
+          "What is cutoff of SPIT?",
+          "What is cut-off of SPIT?",
+          "What is cutoff of CS,IT,ETRX,EXTC?",
+          "What is cut-off of CS,IT,ETRX,EXTC?",
+          "What is institute round process for admission?",
+          "Why should we take admission in SPIT?"
+        ],
+        "responses": [
+          " Following are some of the highlights of S.P.I.T.: \n1) Number one self financed Autonomous institution of Maharashtra. \t2) 100% Placements, average Salary at par with IITs.\n3) About 24% enrollment for Higher Education at Best places of the world.\t4) Strong culture of research, innovation and entrepreneurship.\n5) DST supported TBI for Start Ups.\t6) Holistic, Globally competitive curriculum.\n7) Vibrating campus wherein social values, extracurricular and cocurricullar skills are nurtured alongwith the academics.\n8) Part of Bharatiya Vidya Bhavan culture, a saga of 82 years founded by Dr K. M. Munshi with the support of Mahatma Gandhi.\nAdmissions in S.P.I.T. is done through the marks and ranks of entrance exams like CET and JEE. For admission related queries refer to: https://www.spit.ac.in/admissions/  \nRefer to the cut-off list of previous year at: https://www.spit.ac.in/wp-content/uploads/2021/09/cut_off_20_21.pdf"
+        ]
+      },
+      {
+        "tag": "IEEE",
+        "patterns": [
+          "Institute of Electrical and Electronics Engineers",
+          "IEEE",
+          "IEEE committee in S.P.I.T.",
+          "IEEE committee in Sardar Patel Institute of Technology."
+        ],
+        "responses": [
+          "The IEEE S.P.I.T. is the Student Chapter of Sardar Patel Institute of Technology under Bombay section located in Region 10. IEEE and its members inspire a global community to innovate for a better tomorrow through its more than 423,000 members in over 160 countries, and its highly cited publications, conferences, technology standards, and professional and educational activities. IEEE is the trusted “voice” for engineering, computing, and technology information around the globe. For more information, visit: https://ieee.spit.ac.in/"
+        ]
+      },
+      {
+        "tag": "SPTBI",
+        "patterns": [
+          "Sardar Patel Technology Incubation Center",
+          "Sardar Patel Technology Incubation Center in S.P.I.T.",
+          "Sardar Patel Technology Incubation Center in Sardar Patel Institute of Technology.",
+          "SPTBI",
+          "SPTBI in S.P.I.T.",
+          "SPTBI in Sardar Patel Institute of Technology."
+        ],
+        "responses": [
+          "SP-TBI is an incubation centre that supports daring Entrepreneurs and helps them in building great Technology Ventures of the future. SP-TBI is an initiative of Bharatiya Vidya Bhavan's Sardar Patel Institute of Technology and is affiliated with Department of Science and Technology, Govt of India. SP-TBI work as a catalyst for entrepreneurs ensuring they get the best infrastructure, technology support, seed funding, talent pool, mentoring, training and much more. SP-TBI strive to make startups successful and help them in scaling new heights. For more information, visit: https://www.sptbi.com/"
+        ]
+      },
+      {
+        "tag": "committees",
+        "patterns": [
+          "Tell me about the committees in S.P.I.T.",
+          "Tell me about the committees in Sardar Patel Institute of Technology.",
+          "committees",
+          "committees in S.P.I.T.",
+          "committees in Sardar Patel Institute of Technology.",
+          "different committees in college"
+        ],
+        "responses": [
+          "Various non-statuary committees like ESA, IETE,IEDC, E cell, IR cell, WIE cell, Enactus etc are present to encourage students' respective interests and provide a platform to build on the same. To know more about the committees, visit: https://www.spit.ac.in/about/committees/"
+        ]
+      },
+      {
+        "tag": "funded projects",
+        "patterns": [
+          "funded projects",
+          "R and D funded projects in S.P.I.T.",
+          "R and D funded projects in Sardar Patel Institute of Technology.",
+          "technological advancements in college",
+          "research work done in college",
+          "research work"
+        ],
+        "responses": [
+          "Research & Development centre is set up to provide specialized administrative and managerial support for the operation of sponsored research, consultancy and other R&D related activities of the Institute. The overall R&D structure encompasses in executive committee, faculty research committee and student research committee. To learn more, visit: https://www.spit.ac.in/faculty-research/rd-committee/"
+        ]
+      },
+      {
+        "tag": "SEVA",
+        "patterns": [
+          "SEVA",
+          "SEVA in S.P.I.T.",
+          "SEVA in Sardar Patel Institute of Technology.",
+          "What is SEVA?",
+          "social contribution",
+          "What is social contribution",
+          "What is social contribution of SPIT?",
+          "What are social activities of SPIT?",
+          "How is social contribution of SPIT"
+        ],
+        "responses": [
+          "Sardar Patel Institute of Technology engage students in the following social activities : Volunteer for Mumbai Fire Brigade, Assisting schools in strengthening laboratories by developing experimental set-ups etc. Educating economically poor kids. Volunteer during national calamities like earthquake, flood etc. Planting and maintaining trees. Contribution to Swatch Bharat Abhiyan or Digital India. Participating in field visits and carrying out scientific case studies on rural issues. Volunteer to solve urban issues like traffic congestion and carrying out scientific case studies on the same. Participating in conducting case studies on Indian culture and issues thereof. Conducting voluntary lectures in village schools. To learn more, visit: https://www.spit.ac.in/seva/"
+        ]
+      },
+      {
+        "tag": "SCOPE",
+        "patterns": [
+          "SCOPE",
+          "SCOPE in S.P.I.T.",
+          "SCOPE in Sardar Patel Institute of Technology.",
+          "What is SCOPE?"
+        ],
+        "responses": [
+          "SCOPE (Skill Certification for Outcome-Based Professional Education ) is an initiative of the Sardar Patel Institute of Technology. Through this initiative, we offer 40 hours hands-on training courses and certification in various topics. To learn more, visit: https://scope.spit.ac.in/"
+        ]
+      },
+	  {
+        "tag": "firstyear",
+        "patterns": [
+          "To whom we should contact regarding first year?",
+          "Can you please tell me who should we contact for first year?",
+		  "who is in charge for first year"
+        ],
+        "responses": [
+          "Dr. Rita Das, Dean of students welfare and Dr. D. M. Patil, HoD Humanities and Applied Sciences."
+        ]
+      },
+	  {
+        "tag": "sports",
+        "patterns": [
+          "How is the sports event in spit?",
+          "Sports activities in college",
+          "Sports activities in SPIT",
+          "What are the sports played in S.P.I.T.",
+		  "Which sports are played in S.P.I.T.",
+		  "Which sports competition are organized in S.P.I.T."
+        ],
+        "responses": [
+          "We believe in overall development of students. There is a SPORTS festival called SPOORTHI. In fact there are credits given to the University Level participants or winners of sports.Spoorthi is the sports fest organized by Sardar Patel Institute Of Technology which brings together thousands of individuals across Mumbai and other cities to compete amongst each other and be the best. The series of sports events organized at SPoorthi aim at challenging the skills of an individual thus boosting it and mainly keeping the sportsman spirit within us ALIVE. The fire within should never burn out is what is the motto of this fest.\n For more information visit: https://sports.spit.ac.in/\nLocated on the first floor, the gymnasium enables students to enjoy a game of Table Tennis or try their skill at Carrom. The huge Bhavan’s ground is where the various college cricket events take place. Students as well as the college staff are actively involved in sporting activities."
+        ]
+      },
+	  {
+        "tag": "tech",
+        "patterns": [
+          "I am excited to learn new emerging technologies. Will I get a chance to learn?",
+          "What are the other technology we can learn here out of academic curriculum?",
+		  "What are other technologies I can learn here?",
+		  "What are other technologies I can learn in S.P.I.T.?"
+        ],
+        "responses": [
+          "YES. You will I get to learn emerging technologies like Artificial Intelligence, Data Science, Cyber Security, Robotics etc. There are core, elective and optional courses. Also there are many student bodies which conduct activities related to emerging technologies. You have many electives and optional courses which you can take during your studies. In fact there are few courses related to other branches which you can opt for."
+        ]
+      },
+	  {
+        "tag": "learning",
+        "patterns": [
+          "How is the learning environment at S.P.I.T.?",
+          "learning environment at S.P.I.T.?",
+		  "Information about learning environment at S.P.I.T.?",
+		  "learning"
+        ],
+        "responses": [
+          "Having very good peers make the learning joyful. As meritorious students take admission at S.P.I.T. mostly students are very studious and co-operative. Academic is carried out 100% and there is a continuous evaluation so that students are no burdened with only one final examination. All classes are air conditioned and laboratories are well equipped. Students are allowed to take the key of any lab and perform experiments/projects any time."
+        ]
+      },
+	  {
+        "tag": "Collegetime",
+        "patterns": [
+          "What are college timings?",
+          "What time college starts?",
+		  "what are the timings of the college?",
+		  "what are the timings of the S.P.I.T."
+        ],
+        "responses": [
+          "Administrative office remain open from 9.00 am to 5.00 pm. Classes starts at 8.00 am and ends at 4.00 pm. However we expect student to take part in many curriculum, co-curricular, extra-curricular and other development activities after college hours."
+        ]
+      },
+	  {
+        "tag": "Internship",
+        "patterns": [
+          "We heard of semester long internship. what is that?",
+          "What is semester long internship",
+		  "Internships",
+		  "Internships at S.P.I.T."
+        ],
+        "responses": [
+          "During your studies, you will get an opportunity to work as an intern in industry. This is unique opportunity is offered by S.P.I.T. Rather S.P.I.T. is the only college in Maharashtra to offer semester long internship to all the students. In many cases, students also received an attractive stipend."
+        ]
+      }
+    ]
+  }

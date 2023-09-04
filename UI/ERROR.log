@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "C:/Users/sanchit/Desktop/Chatbot/UI/main.py", line 6, in <module>
+    PurpApp().run()
+  File "C:\Users\sanchit\anaconda3\lib\site-packages\kivy\app.py", line 950, in run
+    runTouchApp()
+  File "C:\Users\sanchit\anaconda3\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\sanchit\anaconda3\lib\site-packages\kivy\base.py", line 347, in mainloop
+    self.idle()
+  File "C:\Users\sanchit\anaconda3\lib\site-packages\kivy\base.py", line 391, in idle
+    self.dispatch_input()
+  File "C:\Users\sanchit\anaconda3\lib\site-packages\kivy\base.py", line 342, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\sanchit\anaconda3\lib\site-packages\kivy\base.py", line 308, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\_event.pyx", line 709, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\sanchit\anaconda3\lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\_event.pyx", line 705, in kivy._event.EventDispatcher.dispatch
+  File "kivy\_event.pyx", line 1248, in kivy._event.EventObservers.dispatch
+  File "kivy\_event.pyx", line 1132, in kivy._event.EventObservers._dispatch
+  File "C:\Users\sanchit\anaconda3\lib\site-packages\kivy\lang\builder.py", line 57, in custom_callback
+    exec(__kvlang__.co_value, idmap)
+  File "C:\Users\sanchit\Desktop\Chatbot\UI\libs\uix\kv\chat_screen.kv", line 67, in <module>
+    on_release: root.send(field.text.strip())
+  File "C:\Users\sanchit\Desktop\Chatbot\UI\libs\uix\baseclass\chat_screen.py", line 80, in send
+    voice_out(reply(text), 'en-in')
+  File "C:\Users\sanchit\Desktop\Chatbot\UI\voice_out.py", line 27, in voice_out
+    os.remove('out.mp3')
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'out.mp3'
